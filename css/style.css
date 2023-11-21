@@ -1,76 +1,77 @@
 body {
-
-    margin-top: 5%;  
-    font: 20px Arial, Helvetica, sans-serif; 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font: 20px Arial, Helvetica, sans-serif;
     font-size: 50px;
-
 }
 
 table {
-
-    background-color: #ACC2CC;
-    border-radius: 10px; padding: 5px;
+    background-color: #acc2cc;
+    border-radius: 10px;
+    padding: 5px;
     padding-bottom: 15px;
     border-radius: 15px;
-    border: 5px solid #1E4F66;
-    box-shadow: -5px 6px 8px #80909B;
-
+    border: 5px solid #1e4f66;
+    box-shadow: -5px 6px 8px #80909b;
 }
- 
+
 input {
     margin-left: 5%;
-    font-size:  30px;
+    font-size: 30px;
     margin-top: 5%;
     width: 400px;
     height: 80px;
-    border: 3px inset #80909B;
-    background-color: #EFEFEF;
+    border: 3px inset #80909b;
+    background-color: #efefef;
     border-radius: 7px;
     text-align: right;
 }
 
+button {
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 .box {
     width: 450px;
-	height: 130px;
+    height: 130px;
     margin: auto;
-	background: linear-gradient(#E68C3B ,#597F90 17%) ;
+    background: linear-gradient(#e68c3b, #597f90 17%);
     border-radius: 15px;
     border-bottom: dotted #ffffff;
-
 }
 
-
-.boton1{
-
-    font-size:  30px;
+.boton1 {
+    font-size: 30px;
     margin: center;
     margin-left: 15%;
     margin-bottom: 15%;
     margin-top: 15%;
-    background-color: #EFEFEF;
+    background-color: #efefef;
     width: 80px;
     height: 80px;
     border-radius: 15px;
-    border: 7.5px outset #80909B;
-    
+    border: 7.5px outset #80909b;
 }
 
-.boton2{
-
-    font-size:  30px;
+.boton2 {
+    font-size: 30px;
     margin: center;
     margin-top: 15%;
     margin-left: 15%;
     margin-bottom: 15%;
-    background-color: #E4D4BF;
+    background-color: #e4d4bf;
     width: 80px;
     height: 80px;
     border-radius: 15px;
-    border: 7.5px outset #80909B;
-    
-}
-
-
-button { 
-    padding: 10px;
+    border: 7.5px outset #80909b;
 }
